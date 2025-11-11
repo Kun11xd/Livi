@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hosting • Domain • Ekstensi • Layanan — Modern Aesthetic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f5fbff;
+      --card:#ffffffcc;
+      --accent:#3b82f6;
+      --muted:#6b7280;
+      --glass: rgba(255,255,255,0.6);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;
+      background: linear-gradient(180deg,var(--bg),#eef7ff 60%);
+      color:#0f172a;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.6;
+    }
+    header{
+      padding:28px 24px; display:flex; align-items:center; justify-content:space-between;
+      max-width:1400px; margin:28px auto 12px; gap:12px;
+    }
+    .brand{display:flex;align-items:center;gap:12px}
+    
+    p.lead{margin:0;color:var(--muted);font-size:14px}
+    nav{display:flex;gap:12px}
+    nav a{padding:8px 12px;border-radius:10px;text-decoration:none;color:var(--accent);font-weight:600}
+
+    .hero{
+      max-width:1400px;margin:10px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.7), rgba(255,255,255,0.5));
+      border-radius:18px;display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:center;box-shadow:0 8px 30px rgba(2,6,23,0.06);
+    }
+    .hero h2{margin:0 0 8px;font-size:28px;color:#0b1220}
+    .hero p{margin:0;color:var(--muted)}
+    .hero-illustration{border-radius:14px;overflow:hidden;height:260px;background:#e6f0ff;display:flex;align-items:center;justify-content:center}
+    .hero-illustration img{width:100%;height:100%;object-fit:cover}
+
+    main{max-width:1400px;margin:26px auto;padding:0 20px}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+    .card{background:var(--card);backdrop-filter:blur(6px);padding:18px;border-radius:14px;box-shadow:0 6px 20px rgba(15,23,42,0.06);border:1px solid rgba(15,23,42,0.04)}
+    .card h3{margin:0 0 8px}
+    .card p{margin:0;color:var(--muted);font-size:14px}
+    .card img{width:100%;height:160px;object-fit:cover;border-radius:10px;margin-top:12px}
+
+    footer{max-width:1400px;margin:40px auto;padding:20px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr;}
+      .grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+    
+      <div>
+        <h1>Amphoreus</h1>
+        <p class="lead">Chysos Heirs </p>
+      </div>
+    </div>
+    <nav>
+      <a href="#hosting">Hosting</a>
+      <a href="#domain">Domain</a>
+      <a href="#ekstensi">Ekstensi</a>
+      <a href="#layanan">Layanan</a>
+    </nav>
+  </header>
+
+  <section class="hero" aria-labelledby="intro">
+    
+    <div class="hero-illustration" aria-hidden>
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=0a3b6f5c7f3b4a8b" alt="Ilustrasi web modern">
+    </div>
+  </section>
+
+  <main>
+    <section class="grid">
+      <article class="card content-section" id="hosting">
+        <h3>Hosting</h3>
+        <p><strong>Hosting</strong> adalah layanan penyimpanan online yang digunakan untuk menyimpan file, database, dan aset situs web sehingga dapat diakses melalui internet. Provider hosting menyediakan server (fisik atau virtual), sumber daya seperti ruang penyimpanan, CPU, dan RAM, serta manajemen jaringan sehingga situs Anda bisa online 24/7. Ada beberapa jenis hosting: shared hosting (banyak situs di satu server), VPS (virtual private server), dedicated server (server khusus), dan cloud hosting (skalabilitas tinggi).</p>
+        <img src="c:\xampp\htdocs\angelynne\assets\img\Downloads\20230506152201-2023-05-06news152120.jpg" alt="Ilustrasi server hosting">
+      </article>
+
+      <article class="card content-section" id="domain">
+        <h3>Domain</h3>
+        <p><strong>Domain</strong> adalah alamat unik yang digunakan pengguna untuk mengakses situs web, misalnya <em>www.contoh.com</em>. Domain tidak menyimpan file situs; ia berfungsi sebagai nama yang dipetakan ke alamat IP server tempat situs disimpan. Domain dibeli dan dikelola melalui pendaftar domain (domain registrar), dan biasanya disewakan setiap tahun. Nama domain membantu brand, memudahkan akses, dan mempengaruhi kredibilitas sebuah situs.</p>
+        <img src="c:\xampp\htdocs\angelynne\assets\img\Downloads\domains.png" alt="Ilustrasi domain">
+      </article>
+
+      <article class="card content-section" id="ekstensi">
+        <h3>Ekstensi (TLD)</h3>
+        <p><strong>Ekstensi</strong> atau TLD (Top-Level Domain) adalah bagian akhir dari domain, misalnya <code>.com</code>, <code>.id</code>, <code>.org</code>, atau <code>.edu</code>. Ekstensi membantu menunjukkan jenis situs atau lokasi geografis. Pemilihan ekstensi bisa berdampak pada persepsi pengguna dan SEO—misalnya <code>.edu</code> memberi sinyal institusi pendidikan, sedangkan <code>.id</code> menandakan situs berfokus ke Indonesia.</p>
+        <img src="c:\xampp\htdocs\angelynne\assets\img\Downloads\665d63fc5da8703e58704df3_What is a Domain _ Definition & Meaning.png" alt="Ilustrasi ekstensi domain">
+      </article>
+
+      <article class="card content-section" id="layanan">
+        <h3>Layanan Web</h3>
+        <p><strong>Layanan web</strong> mencakup semua layanan yang mendukung keberadaan dan fungsi situs, misalnya pendaftaran domain, hosting, CDN (Content Delivery Network), sertifikat SSL, backup, layanan email profesional, dan layanan manajemen seperti pemeliharaan, keamanan, dan optimisasi performa. Layanan ini bisa disediakan oleh satu penyedia terpadu atau diambil dari beberapa vendor berbeda sesuai kebutuhan.</p>
+        <img src="c:\xampp\htdocs\angelynne\assets\img\Downloads\33c6f7_16a3dc625b304b70ba926c9202d8e605~mv2.avif" alt="Ilustrasi layanan web">
+      </article>
+    </section>
+    </section>
+  </main>
+
+
+<script>
+const sections = document.querySelectorAll('.content-section');
+const hero = document.querySelector('.hero');
+function showSection(id){
+  sections.forEach(s => s.style.display = (s.id === id) ? 'block' : 'none');
+  if(hero) hero.style.display = 'none';
+}
+// default: show hosting first
+showSection('hosting');
+document.querySelectorAll('nav a').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    showSection(a.getAttribute('href').replace('#',''));
+  });
+});
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website dengan CSS Terpisah</title>
+  <link rel="stylesheet" href="style.css"> <!-- Menghubungkan ke CSS -->
+</head>
+<style class="css">style.css</style>

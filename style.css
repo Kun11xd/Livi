@@ -1,0 +1,36 @@
+header,
+.hero,
+main,
+footer {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; /* FULL width tanpa batas */
+}
+
+/* Membuat konten melebar tapi tetap rapi */
+main {
+  padding: 0 50px; /* sisi kiri-kanan lebih luas */
+}
+
+/* Hero section agar tampilan lebih lapang */
+.hero {
+  padding: 50px;
+  grid-template-columns: 1fr 1fr; /* supaya seimbang dan tidak tertekan */
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  max-width: 1600px;
+  padding: 50px;
+}
+body {
+  background: #f5faff;
+  font-family: Arial;
+}
+
+h1 {
+  color: blue;
+}
